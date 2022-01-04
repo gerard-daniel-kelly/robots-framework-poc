@@ -22,12 +22,12 @@ Verify you can add policy with scenarios
 Go To Policy Page
     sleep  3s
     Wait Until Element Is Visible  xpath=//*[@id="topNavTabItems"]/li[4]  timeout=5s
-    Click Element  xpath=//*[@id="topNavTabItems"]/li[4]
+    Click Element  xpath=//*[@id="topNavTabItems"]/li[4]  ConductIntelNav
     Wait Until Element Is Visible  xpath=//*[@id="widget-sidebar"]/nav/ul/li[5]  timeout=5s
-    Mouse Over  xpath=//*[@id="widget-sidebar"]/nav/ul/li[5]
+    Mouse Over  xpath=//*[@id="widget-sidebar"]/nav/ul/li[5]   ConfigureNav
     Wait Until Element Is Visible  xpath=//*[@id="widget-sidebar"]/nav/ul/li[5]/ul/li[4]  timeout=5s
-    Click Element  xpath=//*[@id="widget-sidebar"]/nav/ul/li[5]/ul/li[4]
+    Click Element  xpath=//*[@id="widget-sidebar"]/nav/ul/li[5]/ul/li[4]    PolicyLinkNav
     Wait Until Element Is Visible  xpath=//*[@id="layout-static"]/div[2]/supervision/div/div/section/ng-component/div/div/div/panel/div/div/div[1]/div/ul/li[1]  timeout=5
 
 Select Add Policy Tab
-    Click Element  xpath=//*[@id="layout-static"]/div[2]/supervision/div/div/section/ng-component/div/div/div/panel/div/div/div[1]/div/ul/li[2]
+    Click Element  xpath=//*[@id="layout-static"]/div[2]/supervision/div/div/section/ng-component/div/div/div/panel/div/div/div[1]/div/ul/li[2]   Policy Page AddPolicyNav
