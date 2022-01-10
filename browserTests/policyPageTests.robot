@@ -10,7 +10,7 @@ Test Setup  Start Browser And Login
 *** Keywords ***
 Start Browser And Login
   Open Browser
-  Login With ${LoginUsername} And ${LoginPassword}
+  Login With ${UNAME} And ${PWORD}
 
 *** Test Cases ***
 Verify Policy Page Is Accessible
@@ -21,5 +21,3 @@ Verify you can add policy with scenarios
   Navigate To Conduct Intelligence
   Navigate To Configure A Policy
   Select Add Policy Tab
-
-

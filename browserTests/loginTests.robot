@@ -6,5 +6,5 @@ Resource  ../pages/loginPage.resource
 Successful Login
   [Setup]  Open Browser
   [Documentation]  Can successfully log in to the application
-  Login With ${uname} And ${pword}
+  Login With ${UNAME} And ${PWORD}
   [Teardown]  Close Browser

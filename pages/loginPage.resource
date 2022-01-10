@@ -10,7 +10,7 @@ ${loginBtn} =  //*[@id="layout-static"]/div[2]/login-view/section/div[2]/div/div
 Login with ${LoginUsername} and ${LoginPassword}
   [Documentation]  Navigates to the Login Screen if required and Logs in to system
     ${locationCheck}=   Get Url  *=  /portola/login
-    Run Keyword If  ${locationCheck}==${FALSE}  Go To  ${loginUrl}
+    Run Keyword If  ${locationCheck}==${FALSE}  Go To  ${LOGINURL}
     Fill Text  xpath=${unameInput}  ${LoginUsername}
     Fill Secret  xpath=${pwordInput}  ${LoginPassword}
     Click  ${loginBtn}
